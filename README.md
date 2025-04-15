@@ -47,32 +47,32 @@ A full-featured Todo List application built with the MERN stack (MongoDB, Expres
 
 📂 Project Structure
 Mern-Todos-App/
-├── client/               # Frontend React application
-│   ├── public/           # Static files
-│   ├── src/              # React source code
-│   │   ├── components/   # Reusable components
-│   │   ├── App.jsx       # Main application component
-│   │   └── main.jsx      # Application entry point
-│   └── package.json      # Frontend dependencies
+├── client/ # Frontend React application
+│ ├── public/ # Static files
+│ ├── src/ # React source code
+│ │ ├── components/ # Reusable components
+│ │ ├── App.jsx # Main application component
+│ │ └── main.jsx # Application entry point
+│ └── package.json # Frontend dependencies
 │
-├── server/               # Backend Express application
-│   ├── models/           # MongoDB models
-│   ├── routes/           # API routes
-│   ├── app.js            # Express application setup
-│   └── package.json      # Backend dependencies
-└── README.md             # Project documentation
+├── server/ # Backend Express application
+│ ├── models/ # MongoDB models
+│ ├── routes/ # API routes
+│ ├── app.js # Express application setup
+│ └── package.json # Backend dependencies
+└── README.md # Project documentation
 
 
 
 📷 Screenshots
 Light Mode:
-(./Screenshot/White.PNG)
+![Light Mode Screenshot](./Screenshot/White.PNG)
 
 Dark Mode:
-(./Screenshot/Dark.PNG)
+![Dark Mode Screenshot](./Screenshot/Dark.PNG)
 
 Mobile View:
-(./Screenshot/mobile.PNG)
+![Mobile Mode Screenshot](./Screenshot/mobile.PNG)
 
 
 
