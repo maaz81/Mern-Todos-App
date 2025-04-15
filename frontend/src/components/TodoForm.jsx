@@ -4,7 +4,6 @@ import { FiPlus } from 'react-icons/fi';
 import axios from 'axios';
 import React, {useState} from 'react';
 
-// const TodoForm = ({ setTodos }) => {
 //   const [newTodo, setNewTodo] = useState('');
 //   const [newDesc, setNewDesc] = useState('');
 //   const [isAdding, setIsAdding] = useState(false);

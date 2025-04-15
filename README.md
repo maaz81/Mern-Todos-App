@@ -1,12 +1,85 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Project Screenshot](./Screenshot/Front.PNG) <!-- Add your screenshot here -->
 
-Currently, two official plugins are available:
+A full-featured Todo List application built with the MERN stack (MongoDB, Express.js, React, Node.js) with dark/light mode, animations, and local storage persistence.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
 
-## Expanding the ESLint configuration
+- ✅ **Add, edit, delete todos** with titles and descriptions
+- 🌓 **Dark/Light mode** toggle with system preference detection
+- 🎨 **Smooth animations** using Framer Motion
+- 📱 **Fully responsive** design
+- 🔍 **Filter todos** by status (All/Active/Completed)
+- 📅 **Created date tracking** for each todo
+- 💾 **Local storage persistence** for todos and theme preference
+- � **REST API backend** with Express.js and MongoDB
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Technologies Used
+
+### Frontend
+- React.js (Vite)
+- Framer Motion (Animations)
+- Tailwind CSS (Styling)
+- React Icons
+- Axios (API calls)
+
+### Backend
+- Node.js
+- Express.js
+- MongoDB (Database)
+- Mongoose (ODM)
+- CORS (Cross-origin requests)
+
+## 🚀 Installation & Setup
+
+### Prerequisites
+- Node.js (v16 or higher)
+- MongoDB (local or Atlas URI)
+- Git
+
+### Backend Setup
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/maaz81/Mern-Todos-App.git
+   cd Mern-Todos-App/server
+
+
+
+📂 Project Structure
+Mern-Todos-App/
+├── client/               # Frontend React application
+│   ├── public/           # Static files
+│   ├── src/              # React source code
+│   │   ├── components/   # Reusable components
+│   │   ├── App.jsx       # Main application component
+│   │   └── main.jsx      # Application entry point
+│   └── package.json      # Frontend dependencies
+│
+├── server/               # Backend Express application
+│   ├── models/           # MongoDB models
+│   ├── routes/           # API routes
+│   ├── app.js            # Express application setup
+│   └── package.json      # Backend dependencies
+└── README.md             # Project documentation
+
+
+
+📷 Screenshots
+Light Mode:
+(./Screenshot/White.PNG)
+
+Dark Mode:
+(./Screenshot/Dark.PNG)
+
+Mobile View:
+(./Screenshot/mobile.PNG)
+
+
+
+   📜 License
+Distributed under the MIT License. See LICENSE for more information.
+
+📧 Contact
+Your Name - @MaazAhmadKhan - ma3073412@gmail.com
+
+Project Link: https://github.com/maaz81/Mern-Todos-App.git

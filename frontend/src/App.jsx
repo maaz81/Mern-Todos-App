@@ -41,51 +41,7 @@ const App = () => {
     }
   }, [darkMode]);
 
-  // Add new todo (only API call we're keeping)
-  // const addTodo = async (title, description) => {
-  //   try {
-  //     // API call
-  //     const response = await axios.post('http://localhost:5000/api/todos', {
-  //       title,
-  //       description
-  //     });
-      
-  //     // Update local state with the response
-  //     setTodos([...todos, {
-  //       id: Date.now(), // fallback ID if API doesn't return one
-  //       text: title,
-  //       desc: description,
-  //       completed: false,
-  //       createdAt: new Date().toISOString(),
-  //       ...response.data // spread any additional data from API
-  //     }]);
-  //   } catch (err) {
-  //     console.error('Error adding todo:', err);
-  //     // Fallback to local state if API fails
-  //     setTodos([...todos, {
-  //       id: Date.now(),
-  //       text: title,
-  //       desc: description,
-  //       completed: false,
-  //       createdAt: new Date().toISOString()
-  //     }]);
-  //   }
-  // };
-
-  // Toggle todo completion (local only)
-  // const toggleTodo = (id) => {
-  //   setTodos(
-  //     todos.map(todo =>
-  //       todo.id === id ? { ...todo, completed: !todo.completed } : todo
-  //     )
-  //   );
-  // };
-
-  // // Delete todo (local only)
-  // const deleteTodo = (id) => {
-  //   setTodos(todos.filter(todo => todo.id !== id));
-  // };
-
+ 
   const toggleTodo = (id) => {
     setTodos(
       todos.map(todo =>
